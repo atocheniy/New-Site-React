@@ -1,0 +1,80 @@
+.appContainer{
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(23, 23, 23);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appContent{
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+
+  max-width: 70%;
+  width: 100%;
+  z-index: 2;
+
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 2s forwards;
+
+  transition: all 0.3s ease;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.infoCard{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoCardContent{
+  display: flex;
+  flex-direction: row;
+  min-width: 100px;
+}
+
+.bgImage {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+  filter: blur(45px) brightness(40%);
+  pointer-events: none;
+}
+
+.bgOverlay {
+   position: fixed;
+  bottom: 0; left:0;
+  width:100%; height:30px;
+  background-color: rgb(2, 120, 0);
+  z-index: 3;
+  filter: blur(100px);
+}
+
+
+@media (max-width: 1000px) {
+    .appContent {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 660px) {
+    .infoCard {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .infoCardContent {
+        padding-top: 30px;
+    }
+}

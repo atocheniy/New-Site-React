@@ -1,0 +1,40 @@
+.achivementContainer{
+    width: auto;
+    padding-right: 10px;
+    height: 50px;
+    background-color: #44444472;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: bold;
+    gap: 5px;
+}
+
+.achivementContainer label {
+    font-size: 20px; 
+}
+
+.achivementDiv label {
+    font-size: 20px; 
+}
+
+.achivementDiv{
+    width: 80px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: black;
+    font-size: 16px;
+}

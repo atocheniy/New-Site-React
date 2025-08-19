@@ -1,0 +1,43 @@
+.cardContainer{
+    width: 389px;
+    height: 232px;
+    background: rgba(23, 23, 23, 0.512);
+    backdrop-filter: blur(10px);
+
+    border-radius: 20px;
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    color: white;
+    padding: 20px;;
+
+    transition: transform 0.2s ease, background 0.3s ease;
+    perspective: 1000px;
+}
+
+.cardContainer:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+}
+
+.cardDiv{
+    padding-top: 20px;
+}
+
+.cardDiv img {
+  filter: grayscale(100%);
+}
+
+
+label{
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+    .cardContainer {
+        width: 90%;
+        height: auto;
+    }
+}

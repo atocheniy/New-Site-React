@@ -1,0 +1,54 @@
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 60px;
+
+    min-width: 400px;
+
+    color: white;
+    gap: 35px;
+
+    transition: all 1s ease;
+}
+
+.headerlabel{
+    font-size: 60px;
+    font-family: Inter;
+    font-weight: bold;
+
+    transition: all 0.3s ease;
+}
+
+.label{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 1250px) {
+    .headerlabel {
+        font-size: 40px;
+    }
+    .label {
+        font-size: 20px;
+    }
+    .infoContainer{
+        min-width: 300px;
+    }
+}
+
+@media (max-width: 660px) {
+    .headerlabel {
+        font-size: 35px;
+    }
+    .label {
+        font-size: 15px;
+    }
+    .infoContainer{
+        min-width: 200px;
+        padding-left: 0px;
+    }
+}

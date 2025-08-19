@@ -1,0 +1,20 @@
+.cardsContainer{
+    padding-top: 150px;
+    
+}
+
+.cardsRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;  
+
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 1000px) {
+    .cardsRow {
+        flex-direction: column;
+    }
+}
