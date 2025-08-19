@@ -6,7 +6,7 @@ function Avatar() {
 
   return (
     <div className='avatarContainer'>
-      <img id="image" src="./public/321321.png" alt="avatar"></img>
+      <img id="image" src="321321.png" alt="avatar"></img>
     </div>
   );
 }

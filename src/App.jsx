@@ -11,7 +11,7 @@ function App() {
     <div className='appContainer'>
      <Menu/>
       <div className='bgOverlay'></div>
-     <img className="bgImage" src="./public/images.png" />
+     <img className="bgImage" src="images.png" />
      <AppContent/>
     </div>
   )
