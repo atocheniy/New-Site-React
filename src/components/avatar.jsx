@@ -2,11 +2,13 @@ import React from "react";
 import { useState } from "react";
 import '../styles/avatar.css'
 
+import avatarIcon from '../assets/321321.png';
+
 function Avatar() {
 
   return (
     <div className='avatarContainer'>
-      <img id="image" src="321321.png" alt="avatar"></img>
+      <img id="image" src={avatarIcon} alt="avatar"></img>
     </div>
   );
 }

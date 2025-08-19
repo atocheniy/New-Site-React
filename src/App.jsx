@@ -3,6 +3,8 @@ import './App.css'
 
 import AppContent from './AppContent.jsx';
 
+import Image from './assets/images.png';
+
 import Menu from './components/menu.jsx';
 
 function App() {
@@ -11,7 +13,7 @@ function App() {
     <div className='appContainer'>
      <Menu/>
       <div className='bgOverlay'></div>
-     <img className="bgImage" src="images.png" />
+     <img className="bgImage" src={Image} />
      <AppContent/>
     </div>
   )
