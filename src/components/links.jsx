@@ -7,7 +7,7 @@ import discordIcon from '../assets/discord-alt.svg';
 import telegramIcon from '../assets/4701496.png';
 
 function Links() {
-
+  console.log(githubIcon);
   return (
     <div className='linksContainer'>
       <button className="button"><img className="imgBut" src={githubIcon} style={{width: "40px", height: "40px", marginRight: "10px"}}/><label className="lbl">GitHub</label></button>
