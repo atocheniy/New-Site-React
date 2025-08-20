@@ -10,8 +10,11 @@ import Image from './assets/images.png';
 import Menu from './components/menu.jsx';
 import Sidebar from './components/sidebar.jsx';
 
+import {BrowserRouter as Router, Routes, Route, NavLink, Navigate, Outlet, useParams, useNavigate} from 'react-router-dom'
+
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
+import Gallery from './Gallery.jsx';
 
 const darkTheme = createTheme({
   palette: {
@@ -30,11 +33,16 @@ function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <div className='appContainer'>
-      <Menu open={open} setOpen={setOpen} toggleDrawer={toggleDrawer}/>
-      <Sidebar open={open} setOpen={setOpen} toggleDrawer={toggleDrawer}/>
-      <div className='bgOverlay'></div>
-      <img className="bgImage" src={Image} />
-      <AppContent/>
+        <Router>
+          <Menu open={open} setOpen={setOpen} toggleDrawer={toggleDrawer}/>
+          <Sidebar open={open} setOpen={setOpen} toggleDrawer={toggleDrawer}/>
+          <div className='bgOverlay'></div>
+          <img className="bgImage" src={Image} />
+          <Routes>
+            <Route path="/" element={<AppContent/>} />
+            <Route path="/gallery" element={<Gallery />} />
+          </Routes>
+        </Router>
       </div>
     </ThemeProvider>
   )
