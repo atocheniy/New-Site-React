@@ -195,12 +195,17 @@ function Sidebar({open, setOpen, toggleDrawer}) {
       marginBottom: "10px",        
       marginLeft: "10px",
       borderRadius: "16px",      
-      background: "rgba(22, 22, 22, 0.23)",
-      backdropFilter: "blur(10px)",
+      background: "rgba(97, 97, 97, 0.23)",
+      backdropFilter: "blur(8px)",
       color: "white",
-      borderLeft: "0.5px solid #2f2f2f44",
-      borderRight: "0.5px solid #ffffff44",
-      boxShadow: "0 32px 96px 0 rgba(0, 0, 0, 0.3), 0 16px 64px 0 rgba(60,60,60,0.22), 0 3px 16px 0 rgba(60,60,60,0.13)",
+      borderLeft: "0.5px solid #1e1e1e44",
+      borderRight: "0.5px solid #2b2b2b44",
+      borderTop: "0.5px solid #16161644",
+      boxShadow: `
+        inset 1px 1px 5px rgba(255,255,255,0.2), 
+        inset -2px -2px 6px rgba(0,0,0,0.2),    
+        0 8px 24px rgba(0,0,0,0.3)               
+      `
     },
     '& .MuiBackdrop-root': {
       backgroundColor: "rgba(0,0,0,0.45)",  
