@@ -15,6 +15,7 @@ function Gallery() {
 
   return (
     <div className='galleryContent'>
+      <label className="lblgallery" style={{fontFamily: "Inter", fontSize: "64px", paddingBottom: "30px"}}>My Projects</label>
       <div className='cardsRow'>
             <Card>
                 <label style={{position: "absolute", zIndex: "2", paddingLeft: "15px"}}>Code Editor</label>
