@@ -39,8 +39,8 @@ function App() {
           <div className='bgOverlay'></div>
           <img className="bgImage" src={Image} />
           <Routes>
-            <Route path="/" element={<AppContent/>} />
-            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/New-Site-React/" element={<AppContent/>} />
+            <Route path="/New-Site-React/gallery" element={<Gallery />} />
           </Routes>
         </Router>
       </div>

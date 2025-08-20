@@ -124,8 +124,8 @@ function Sidebar({open, setOpen, toggleDrawer}) {
               paddingTop:"20px"
             }}
             >
-            <Tab component={NavLink} to="/" icon={<Home />} iconPosition="start" label="About me" {...a11yProps(0)} />
-            <Tab component={NavLink} to="/gallery" icon={<Settings />} iconPosition="start" label="My Projects" {...a11yProps(1)} />
+            <Tab component={NavLink} to="/New-Site-React/" icon={<Home />} iconPosition="start" label="About me" {...a11yProps(0)} />
+            <Tab component={NavLink} to="/New-Site-React/gallery" icon={<Settings />} iconPosition="start" label="My Projects" {...a11yProps(1)} />
           </Tabs>
         </Box>
     );
@@ -175,8 +175,8 @@ function Sidebar({open, setOpen, toggleDrawer}) {
               paddingTop:"20px"
             }}
             >
-            <Tab component={NavLink} to="/" icon={<Home />} iconPosition="start" label="About me" {...a11yProps(0)} />
-            <Tab component={NavLink} to="/gallery" icon={<Settings />} iconPosition="start" label="My Projects" {...a11yProps(1)} />
+            <Tab component={NavLink} to="/New-Site-React/" icon={<Home />} iconPosition="start" label="About me" {...a11yProps(0)} />
+            <Tab component={NavLink} to="/New-Site-React/gallery" icon={<Settings />} iconPosition="start" label="My Projects" {...a11yProps(1)} />
           </Tabs>
         </Box>
     );
