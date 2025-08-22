@@ -8,6 +8,7 @@ import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 
 import Icon1 from './assets/img3.png';
 import Icon2 from './assets/2.png';
+import Icon3 from './assets/250822_10h13m08s_screenshot.png';
 
 import './Gallery.css'
 
@@ -31,8 +32,11 @@ function Gallery() {
                 <img src={Icon2} alt="Image" style={{border: "1px solid blue", boxShadow: "0 0 200px rgba(0, 68, 255, 0.2)"}}></img>
             </Card>
 
-            <Card name="Phone Book" >
-                <img src="" alt="Image"></img>
+            <Card>
+                <label style={{position: "absolute", zIndex: "2", paddingLeft: "15px"}}>Phone Book</label>
+                <div style={{borderRadius: "20px", width: "375px", height: "80px", background: "rgba(19, 19, 19, 0.7)", filter: "blur(40px)", backdropFilter: "blur(10px)", position: "absolute", zIndex: "1", paddingLeft: "15px", marginTop: "-30px"}}></div>
+                <button className="button" style={{position: "absolute", zIndex: "2", width: "60px", height: "60px", right: "15px", bottom: "15px", borderRadius: "30%"}}><ExitToAppIcon /></button>
+                <img src={Icon3} alt="Image" style={{border: "1px solid gray", boxShadow: "0 0 200px rgba(42, 42, 42, 0.2)"}}></img>
             </Card>
 
         </div>
