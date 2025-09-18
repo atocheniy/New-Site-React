@@ -7,6 +7,8 @@ import AppContent from './AppContent.jsx';
 
 import Image from './assets/images.png';
 
+import Icon1 from './assets/img3.png';
+
 import Menu from './components/menu.jsx';
 import Sidebar from './components/sidebar.jsx';
 
@@ -15,6 +17,7 @@ import {BrowserRouter as Router, Routes, Route, NavLink, Navigate, Outlet, usePa
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Gallery from './Gallery.jsx';
+import PresentationPage from './PresentationPage.jsx';
 
 const darkTheme = createTheme({
   palette: {
@@ -41,6 +44,10 @@ function App() {
           <Routes>
             <Route path="/New-Site-React/" element={<AppContent/>} />
             <Route path="/New-Site-React/gallery" element={<Gallery />} />
+
+            <Route path="/New-Site-React/Code-Editor" element={<PresentationPage title={"Code Editor"} subtitle="WPF .NET C# AvalonEdit Roslyn" image={Icon1} data={""}/>} />
+            <Route path="/New-Site-React/Tetris" element={<PresentationPage title={"Tetris"} image={Image} data={""}/>} />
+            <Route path="/New-Site-React/Phone-Book" element={<PresentationPage title={"Phone Book"} image={Image} data={""}/>} />
           </Routes>
         </Router>
       </div>
