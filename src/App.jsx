@@ -46,8 +46,8 @@ function App() {
             <Route path="/New-Site-React/gallery" element={<Gallery />} />
 
             <Route path="/New-Site-React/Code-Editor" element={<PresentationPage title={"Code Editor"} subtitle="WPF .NET C# AvalonEdit Roslyn" image={Icon1} data={""}/>} />
-            <Route path="/New-Site-React/Tetris" element={<PresentationPage title={"Tetris"} image={Image} data={""}/>} />
-            <Route path="/New-Site-React/Phone-Book" element={<PresentationPage title={"Phone Book"} image={Image} data={""}/>} />
+            <Route path="/New-Site-React/Tetris" element={<PresentationPage title={"Tetris"} image={""} data={""}/>} />
+            <Route path="/New-Site-React/Phone-Book" element={<PresentationPage title={"Phone Book"} image={""} data={""}/>} />
           </Routes>
         </Router>
       </div>
