@@ -11,9 +11,12 @@ import Icon1 from './assets/img3.png';
 import Icon2 from './assets/2.png';
 import Icon3 from './assets/250822_10h13m08s_screenshot.png';
 
-import './PresentationPage.css'
+import githubIcon from './assets/GITHUB_icon-icons.com_65505.svg';
 
-function PresentationPage({title, subtitle, image, data, paddingTop, color, colorShadow}) {
+import './PresentationPage.css'
+import { Button } from "@mui/material";
+
+function PresentationPage({title, subtitle, image, data, paddingTop, color, colorShadow, link}) {
 
   const pageStyles = {
     '--border-color': color,
@@ -31,6 +34,7 @@ function PresentationPage({title, subtitle, image, data, paddingTop, color, colo
       <div className="dataContainer" style={{paddingTop: paddingTop ? paddingTop : "30px"}}>
         <label className="titlelbl" style={{}}>{title}</label>
         <label className="subtitlelbl" style={{}}>{subtitle}</label>
+       <a href={link}><button className="button" style={{width: "350px", height: "60px", background: "#4444444f", border: "rgba(49, 49, 49, 0.685) solid 1px", borderRadius: "12px"}}><img className="imgBut" src={githubIcon} style={{width: "40px", height: "40px", marginRight: "10px"}}/><label style={{color: "white", fontSize: "24px"}} className="lbl">Link to code on GitHub</label></button></a>
       </div>
 
       <div style={{ paddingTop: "100px"}}>

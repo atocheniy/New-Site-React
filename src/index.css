@@ -12,3 +12,8 @@ html, body {
 :root {
   color-scheme: dark;
 }
+
+::selection {
+  background-color: white; 
+  color: black;       
+}

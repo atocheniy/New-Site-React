@@ -92,9 +92,9 @@ const phoneBookData = {
             <Route path="/New-Site-React/" element={<AppContent/>} />
             <Route path="/New-Site-React/gallery" element={<Gallery />} />
 
-            <Route path="/New-Site-React/Code-Editor" element={<PresentationPage title={"Code Editor"} subtitle="WPF .NET C# AvalonEdit Roslyn" image={Icon1} data={codeEditorData} paddingTop={"30px"} color={"rgba(255, 0, 0, 0.555)"} colorShadow={"rgba(255, 0, 0, 0.2)"}/>} />
-            <Route path="/New-Site-React/Tetris" element={<PresentationPage title={"Tetris"} subtitle="WPF .NET C#" image={Icon2} data={tetrisData} paddingTop={"50px"} color={"rgba(0, 195, 255, 0.56)"} colorShadow={"rgba(0, 153, 255, 0.2)"}/>} />
-            <Route path="/New-Site-React/Phone-Book" element={<PresentationPage title={"Phone Book"} subtitle="JavaScript React Material-UI" image={Icon3} data={phoneBookData} paddingTop={"60px"} color={"rgba(111, 0, 255, 0.56)"} colorShadow={"rgba(162, 0, 255, 0.2)"}/>} />
+            <Route path="/New-Site-React/Code-Editor" element={<PresentationPage title={"Code Editor"} subtitle="WPF .NET C# AvalonEdit Roslyn" image={Icon1} data={codeEditorData} paddingTop={"30px"} color={"rgba(255, 0, 0, 0.555)"} colorShadow={"rgba(255, 0, 0, 0.2)"} link={"https://github.com/atocheniy/Code-Editor"}/>} />
+            <Route path="/New-Site-React/Tetris" element={<PresentationPage title={"Tetris"} subtitle="WPF .NET C#" image={Icon2} data={tetrisData} paddingTop={"50px"} color={"rgba(0, 195, 255, 0.56)"} colorShadow={"rgba(0, 153, 255, 0.2)"} link={"https://github.com/atocheniy/Tetris-2024-Release"}/>} />
+            <Route path="/New-Site-React/Phone-Book" element={<PresentationPage title={"Phone Book"} subtitle="JavaScript React Material-UI" image={Icon3} data={phoneBookData} paddingTop={"60px"} color={"rgba(111, 0, 255, 0.56)"} colorShadow={"rgba(162, 0, 255, 0.2)"} link={"https://github.com/atocheniy/PhoneBook"}/>} />
           </Routes>
         </Router>
       </div>
