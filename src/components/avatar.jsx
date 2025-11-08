@@ -8,7 +8,7 @@ function Avatar() {
 
   return (
     <div className='avatarContainer'>
-      <img id="image" src={avatarIcon} alt="avatar"></img>
+      <img id="image" src="https://github.com/atocheniy.png" alt="avatar"></img>
     </div>
   );
 }

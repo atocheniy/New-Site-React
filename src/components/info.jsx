@@ -8,8 +8,8 @@ function Info() {
     <div className='infoContainer'>
       <label className="headerlabel">atocheniy</label>
       <label className="label">Andrey Tocheniy</label>
-      <label className="label">atocheniy · he|him</label>
-      <label className="label">17-years-old programmer</label>
+      <label className="label">Full-stack developer</label>
+      <label className="label">17-years · he/him</label>
     </div>
   );
 }

@@ -13,17 +13,22 @@ import Icon3 from './assets/250822_10h13m08s_screenshot.png';
 
 import './PresentationPage.css'
 
-function PresentationPage({title, subtitle, image, data}) {
+function PresentationPage({title, subtitle, image, data, paddingTop, color, colorShadow}) {
+
+  const pageStyles = {
+    '--border-color': color,
+    '--shadow-color': colorShadow
+  };
 
   console.log(title, subtitle, image, data);
 
   return (
     <div className='appContent presentationContent'>
-      <div className="imageContainer">
-        <img src={image}  alt="Image"></img>
+      <div className="imageContainer" >
+        <img src={image} style={pageStyles} alt="Image"></img>
       </div>
 
-      <div className="dataContainer">
+      <div className="dataContainer" style={{paddingTop: paddingTop ? paddingTop : "30px"}}>
         <label className="titlelbl" style={{}}>{title}</label>
         <label className="subtitlelbl" style={{}}>{subtitle}</label>
       </div>
@@ -31,23 +36,23 @@ function PresentationPage({title, subtitle, image, data}) {
       <div style={{ paddingTop: "100px"}}>
         <div className='cardsRow'>
               <Card>
-                  <label style={{ fontSize: "28px", fontWeight: "600" }}>About</label>
+                  <label style={{ fontSize: "28px", fontWeight: "600" }}>{data.card1.title}</label>
                   <p style={{ fontSize: "20px", lineHeight: "1.4", color: "#ccc" }}>
-                    A modern and convenient code editor that combines minimalism, speed, and smart features.
+                   {data.card1.description}
                   </p>
               </Card>
 
               <Card>
-                  <label style={{ fontSize: "28px", fontWeight: "600" }}>Languages</label>
+                  <label style={{ fontSize: "28px", fontWeight: "600" }}>{data.card2.title}</label>
                   <p style={{ fontSize: "20px", lineHeight: "1.4", color: "#ccc" }}>
-                    With it, you can comfortably write in C#, Python, JavaScript, and other languages.
+                    {data.card2.description}
                   </p>
               </Card>
 
               <Card>
-                <label style={{ fontSize: "28px", fontWeight: "600" }}>Activity</label>
+                <label style={{ fontSize: "28px", fontWeight: "600" }}>{data.card3.title}</label>
                   <p style={{ fontSize: "20px", lineHeight: "1.4", color: "#ccc" }}>
-                    Minimalism and aesthetics: dark theme to reduce eye strain, acrylic transparency in panels.
+                    {data.card3.description}
                   </p>
               </Card>
 

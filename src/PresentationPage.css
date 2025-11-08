@@ -9,17 +9,17 @@
     height: auto;
 
     border-radius: 12px;
-    border: 2px solid rgba(255, 0, 0, 0.555);
-    box-shadow: 0 0 200px rgba(255, 0, 0, 0.2);
+    border: 2px solid var(--border-color, rgba(255, 255, 255, 0.555));;
+    box-shadow: 0 0 200px var(--shadow-color, rgba(255, 255, 255, 0.2));;
 
     animation: float1 5s ease-in-out infinite;
     transition: all 0.3s ease;
 }
 
 @keyframes float1 {
-    0%   { transform: translateY(0px); box-shadow: 0 0 200px rgba(255, 0, 0, 0.2);}
-    50%  { transform: translateY(-20px); box-shadow: 0 0 500px rgba(255, 0, 0, 0.3);} 
-    100% { transform: translateY(0px); box-shadow: 0 0 200px rgba(255, 0, 0, 0.2);}
+    0%   { transform: translateY(0px); box-shadow: 0 0 200px var(--shadow-color, rgba(255, 255, 255, 0.2));}
+    50%  { transform: translateY(-20px); box-shadow: 0 0 500px var(--shadow-color, rgba(255, 255, 255, 0.3));} 
+    100% { transform: translateY(0px); box-shadow: 0 0 200px var(--shadow-color, rgba(255, 255, 255, 0.2));}
 }
 
 .presentationContent{

@@ -4,7 +4,7 @@
 
    align-items: center;
     padding-top: 60px;
-    padding-left: 170px;
+    padding-left: 20px;
 }
 
 .achivementsRow{
@@ -21,6 +21,17 @@
 @media (max-width: 1000px) {
     .achivementsContainer {
         padding-left: 0px;
+    }
+}
+
+@media (max-width: 800px) {
+    .achivementsContainer {
+        flex-direction: column;
+
+    }
+    .achivementsRow {
+        flex-direction: column;
+        width: 400px;
     }
 }
 

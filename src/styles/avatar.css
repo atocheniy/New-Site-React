@@ -2,7 +2,7 @@
     width: 20vw; 
     max-width: 300px;
     aspect-ratio: 1 / 1; 
-    background-color: gray;
+    background-color: rgb(0, 0, 0);
 
     min-width: 100px;
 
@@ -27,6 +27,7 @@
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
+    display: block; 
 }
 
 @media (max-width: 660px) {

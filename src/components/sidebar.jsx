@@ -103,7 +103,7 @@ function Sidebar({open, setOpen, toggleDrawer}) {
         role="presentation" onClick={toggleDrawer(false)}>
         <Typography 
           variant="subtitle2" 
-          sx={{ color: "rgba(255,255,255,0.6)", mt: 2, mb: 1, fontSize: "24px", fontFamily: "Inter" }}
+          sx={{ color: "rgba(255,255,255,0.6)", mt: 2, mb: 1, fontWeight: "bold", fontSize: "24px", fontFamily: "Segoe UI, Inter, Tahoma, Geneva, Verdana, sans-serif" }}
         >
           Info
         </Typography>
@@ -120,15 +120,15 @@ function Sidebar({open, setOpen, toggleDrawer}) {
                 color: "white !important",
                 borderRadius: "16px",
                 textTransform: "none",
-                fontWeight: "500",
+                fontWeight: "bold",
                 marginBottom: "6px",
                 transition: "background 0.3s ease-in-out",
-                border: "2px rgba(252, 252, 252, 0) solid",
+                border: "1px rgba(58, 58, 58, 0.51) solid",
                 maxWidth: "220px",
                 width: "220px",
                 marginTop: "10px",
-                backgroundColor: "rgba(31, 31, 31, 0.29)",
-                fontFamily: "Inter",
+                backgroundColor: "rgba(24, 24, 24, 0.7)",
+                fontFamily: "Segoe UI, Inter, Tahoma, Geneva, Verdana, sans-serif",
                 fontSize: "20px"
               },
               ".Mui-selected": {
@@ -153,7 +153,7 @@ function Sidebar({open, setOpen, toggleDrawer}) {
 
           <Typography 
             variant="subtitle2" 
-            sx={{ color: "rgba(255,255,255,0.6)", mt: 5, mb: 1, fontSize: "24px", fontFamily: "Inter" }}
+            sx={{ color: "rgba(255,255,255,0.6)", mt: 5, mb: 1, fontWeight: "bold", fontSize: "24px", fontFamily: "Segoe UI, Inter, Tahoma, Geneva, Verdana, sans-serif" }}
           >
             Projects
           </Typography>
@@ -172,15 +172,15 @@ function Sidebar({open, setOpen, toggleDrawer}) {
                 color: "white !important",
                 borderRadius: "16px",
                 textTransform: "none",
-                fontWeight: "500",
+                fontWeight: "bold",
                 marginBottom: "6px",
                 transition: "background 0.3s ease-in-out",
-                border: "2px rgba(252, 252, 252, 0) solid",
+                border: "1px rgba(58, 58, 58, 0.51) solid",
                 maxWidth: "220px",
-                backgroundColor: "rgba(31, 31, 31, 0.29)",
+                backgroundColor: "rgba(24, 24, 24, 0.7)",
                 width: "220px",
                 marginTop: "10px",
-                fontFamily: "Inter",
+                fontFamily: "Segoe UI, Inter, Tahoma, Geneva, Verdana, sans-serif",
                 fontSize: "20px"
               },
               ".Mui-selected": {
@@ -225,7 +225,7 @@ function Sidebar({open, setOpen, toggleDrawer}) {
         role="presentation" onClick={toggleDrawer(false)}>
           <Typography 
           variant="subtitle2" 
-          sx={{ color: "rgba(255,255,255,0.6)", mt: 2, mb: 1, fontSize: "24px", fontFamily: "Inter" }}
+          sx={{ color: "rgba(255,255,255,0.6)", mt: 2, mb: 1, fontSize: "24px", fontWeight: "bold", fontFamily: "Segoe UI, Inter, Tahoma, Geneva, Verdana, sans-serif" }}
         >
           Info
         </Typography>
@@ -242,15 +242,15 @@ function Sidebar({open, setOpen, toggleDrawer}) {
                 color: "white !important",
                 borderRadius: "16px",
                 textTransform: "none",
-                fontWeight: "500",
+                fontWeight: "bold",
                 marginBottom: "6px",
                 transition: "background 0.3s ease-in-out",
-                border: "2px rgba(252, 252, 252, 0) solid",
+                border: "1px rgba(58, 58, 58, 0.51) solid",
                 maxWidth: "220px",
                 width: "220px",
                 marginTop: "10px",
-                backgroundColor: "rgba(31, 31, 31, 0.29)",
-                fontFamily: "Inter",
+                backgroundColor: "rgba(24, 24, 24, 0.7)",
+                fontFamily: "Segoe UI, Inter, Tahoma, Geneva, Verdana, sans-serif",
                 fontSize: "20px"
               },
               ".Mui-selected": {
@@ -273,7 +273,7 @@ function Sidebar({open, setOpen, toggleDrawer}) {
 
            <Typography 
             variant="subtitle2" 
-            sx={{ color: "rgba(255,255,255,0.6)", mt: 5, mb: 1, fontSize: "24px", fontFamily: "Inter" }}
+            sx={{ color: "rgba(255,255,255,0.6)", mt: 5, mb: 1, fontSize: "24px", fontFamily: "Segoe UI, Inter, Tahoma, Geneva, Verdana, sans-serif" }}
           >
             Projects
           </Typography>
@@ -292,15 +292,15 @@ function Sidebar({open, setOpen, toggleDrawer}) {
                 color: "white !important",
                 borderRadius: "16px",
                 textTransform: "none",
-                fontWeight: "500",
+                fontWeight: "bold",
                 marginBottom: "6px",
                 transition: "background 0.3s ease-in-out",
-                border: "2px rgba(252, 252, 252, 0) solid",
+                border: "1px rgba(58, 58, 58, 0.51) solid",
                 maxWidth: "220px",
-                backgroundColor: "rgba(31, 31, 31, 0.29)",
+                backgroundColor: "rgba(24, 24, 24, 0.7)",
                 width: "220px",
                 marginTop: "10px",
-                fontFamily: "Inter",
+                fontFamily: "Segoe UI, Inter, Tahoma, Geneva, Verdana, sans-serif",
                 fontSize: "20px"
               },
               ".Mui-selected": {
