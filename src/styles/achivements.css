@@ -31,12 +31,16 @@
     }
     .achivementsRow {
         flex-direction: column;
-        width: 400px;
+        width: 500px;
     }
 }
 
 @media (max-width: 660px) {
     .achivementsRow {
         justify-content: center;
+    }
+    .achivementsRow {
+        flex-direction: column;
+        width: 350px;
     }
 }

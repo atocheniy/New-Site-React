@@ -82,3 +82,13 @@
         height: 230px;
     }
 }
+
+@media (max-width: 450px) {
+    .imageContainer{
+        width: auto;
+    }
+
+    .imageContainer img {
+        width: 350px;
+    }
+}
