@@ -126,6 +126,7 @@ function Sidebar({open, setOpen, toggleDrawer}) {
                 border: "1px rgba(58, 58, 58, 0.51) solid",
                 maxWidth: "220px",
                 width: "220px",
+                transform: "translateZ(0)",
                 marginTop: "10px",
                 backgroundColor: "rgba(24, 24, 24, 0.7)",
                 fontFamily: "Segoe UI, Inter, Tahoma, Geneva, Verdana, sans-serif",
@@ -179,6 +180,7 @@ function Sidebar({open, setOpen, toggleDrawer}) {
                 maxWidth: "220px",
                 backgroundColor: "rgba(24, 24, 24, 0.7)",
                 width: "220px",
+                transform: "translateZ(0)",
                 marginTop: "10px",
                 fontFamily: "Segoe UI, Inter, Tahoma, Geneva, Verdana, sans-serif",
                 fontSize: "20px"
@@ -216,6 +218,7 @@ function Sidebar({open, setOpen, toggleDrawer}) {
         backdropFilter: "blur(20px)",
         webkitBackdropFilter: "blur(20px)",
         borderRadius: "20px",
+        transform: "translateZ(0)",
         border: "1px solid rgba(255, 255, 255, 0.1)",
         boxShadow: "inset 1px 1px 5px rgba(255,255,255,0.1),inset -2px -2px 6px rgba(0,0,0,0.1),0 8px 24px rgba(0,0,0,0.2)",
         margin: "20px",
@@ -249,6 +252,7 @@ function Sidebar({open, setOpen, toggleDrawer}) {
                 maxWidth: "220px",
                 width: "220px",
                 marginTop: "10px",
+                transform: "translateZ(0)",
                 backgroundColor: "rgba(24, 24, 24, 0.7)",
                 fontFamily: "Segoe UI, Inter, Tahoma, Geneva, Verdana, sans-serif",
                 fontSize: "20px"
@@ -300,6 +304,7 @@ function Sidebar({open, setOpen, toggleDrawer}) {
                 backgroundColor: "rgba(24, 24, 24, 0.7)",
                 width: "220px",
                 marginTop: "10px",
+                transform: "translateZ(0)",
                 fontFamily: "Segoe UI, Inter, Tahoma, Geneva, Verdana, sans-serif",
                 fontSize: "20px"
               },
@@ -341,6 +346,7 @@ function Sidebar({open, setOpen, toggleDrawer}) {
       borderRadius: "16px",      
       background: "rgba(97, 97, 97, 0.23)",
       backdropFilter: "blur(8px)",
+      transform: "translateZ(0)",
       color: "white",
       borderLeft: "0.5px solid #1e1e1e44",
       borderRight: "0.5px solid #2b2b2b44",

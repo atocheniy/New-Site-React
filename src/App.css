@@ -50,6 +50,8 @@
   object-fit: cover;
   filter: blur(45px) brightness(40%);
   pointer-events: none;
+
+  transform: translateZ(0);
 }
 
 .bgOverlay {
@@ -59,6 +61,8 @@
   background-color: rgb(2, 120, 0);
   z-index: 3;
   filter: blur(100px);
+
+  transform: translateZ(0);
 }
 
 
