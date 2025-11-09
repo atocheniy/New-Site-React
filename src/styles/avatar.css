@@ -8,8 +8,8 @@
 
     border-radius: 50%;
 
-    border: 6px solid rgb(0, 255, 34);
-    box-shadow: 0 0 200px rgba(0, 255, 34, 0.2);
+    border: 6px solid rgb(0, 0, 0);
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.2);
 
     animation: float 5s ease-in-out infinite;
     transition: all 0.3s ease;
